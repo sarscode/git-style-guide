@@ -1,4 +1,6 @@
-# git-style-guide
+# git-style-guide 
+![LICENSE](https://img.shields.io/github/license/sarscode/git-style-guide)
+![GitHub Stars](https://img.shields.io/github/stars/sarscode/git-style-guide?style=social)
 
 A sane, opinionated style guide for git.
 
