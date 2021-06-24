@@ -9,7 +9,7 @@ A sane, opinionated style guide for git.
 - Use **lowercase** for naming repositories.
 - Use **kebab-case** (hyphen separated words) for multi-word names.
 
-```bash
+```
 # good
 prettier
 parcel-transformer-ejs 
@@ -37,7 +37,7 @@ Other branches are usually short-lived.
 - Use **kebab-case** when naming branches.
 - Branch names should follow this format:
 
-```bash
+```
 <story-type>-<description>-[ticket-id]
 ```
 
@@ -54,7 +54,7 @@ Other branches are usually short-lived.
 
 `ticket-id` is optional. However, if the branch is an implementation of a ticket in an agile project or a GitHub issue, the ticket id or issue tracking id should be referenced.
 
-```bash
+```
 # good
 ft-user-auth-12345
 fix-scrollspy
@@ -68,7 +68,7 @@ login
 
 > Branch names could also be version names or release tag names.
 
-```bash
+```
 # good
 v2.0.0
 release-v2.1
@@ -110,7 +110,7 @@ Commit messages should consist of three distinct parts separated by a blank line
 
 `subject`  should be at most 50 characters, should begin with a capital letter and should not end with a period. Use present tense to describe what a commit does, rather than what it did. For example, use **Add**, instead of **Added** or **Adding**. 
 
-```bash
+```
 # good
 feat(accounts): Add user signup validations
 chore(deps): Upgrade to parcel v2.0.1
@@ -128,7 +128,7 @@ login
 
 *Below is template guide for a commit message with title, body and footer.*
 
-```bash
+```
 feat: Summarize changes in around 50 characters or less
 
 More detailed explanatory text, if necessary. Wrap it to about 72
@@ -160,11 +160,11 @@ See also: #456, #789
 
 **Example:**
 
-```bash
+```
 feat(accounts): Add user signup validations
 
 Add validation constraints for user signup. Require password length to be 
 minimum of 6 and contain Alphanumeric characters.
 
 [Done #512345]
-```Git Style Guide
+```
